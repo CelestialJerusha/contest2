@@ -1,0 +1,54 @@
+
+#navbar{
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    text-align: center; 
+}
+
+#navbar a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: grey;
+    color: white;
+    margin-top: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  
+  .tablecontainer{
+    padding-top: 50px;
+    padding-left: 350px;
+  }
+  table,th,tr,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: lightblue;
+    width: 300px;
+    margin: 10px;
+    padding : 5px;
+  }
+  .registercontainer{
+    padding-top: 50px;
+    padding-left: 350px;
+  }
+  input{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 65%;
+    border-color: grey;
+  }
+  button{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 65%;
+    background-color: rgb(29, 0, 255);
+  }

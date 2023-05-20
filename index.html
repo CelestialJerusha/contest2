@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>contest2project</title>
+        <link rel="stylesheet" href="index.css">
+        <body>
+            <div>
+                <div id="navbar">
+                    <a href="#books">Books</a>
+                    <a href="#register">Register</a>
+                </div>
+            </div>
+            <div id="books" class="tablecontainer">
+                <table>
+                    <thead>
+                        <th>Book ID</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Genre</th>
+                        <th>Availability</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>The Alchemist
+                                <table>
+                                    <tr><td>Publication Date:1988</td></tr>
+                                    <tr><td>Page Count:163</td></tr>
+                                    <tr><td>ISBN:9780062390622</td></tr>
+                                </table>
+                            </td>
+                            <td>Paulo Coelho</td>
+                            <td>Genres: Novel, Drama, Quest, Fantasy Fiction, Adventure fiction</td>
+                            <td>available</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>The Diary of A Young Girl
+                                <table>
+                                    <tr><td>Publication Date:1947</td></tr>
+                                    <tr><td>Page Count:714</td></tr>
+                                    <tr><td>ISBN:9783596511495</td></tr>
+                                </table>
+                            </td>
+                            <td>Anne Frank</td>
+                            <td>Genres: Biography, Autobiography, Personal narrative, Jewish literature</td>
+                            <td>Not available</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>The Kite Runner
+                                <table>
+                                    <tr><td>Publication Date:2003</td></tr>
+                                    <tr><td>Page Count:371</td></tr>
+                                    <tr><td>ISBN:1-57322-245-3</td></tr>
+                                </table>
+                            </td>
+                            <td>Khaled Hosseini</td>
+                            <td>Genres:Fiction/ Historical</td>
+                            <td>available</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>The God of Small Things
+                                <table>
+                                    <tr><td>Publication Date:1998</td></tr>
+                                    <tr><td>Page Count:333</td></tr>
+                                    <tr><td>ISBN:81-86318-54-2</td></tr>
+                                </table>
+                            </td>
+                            <td>Arundhati Roy</td>
+                            <td>Genres: Novel, Psychological Fiction, Domestic Fiction</td>
+                            <td>Not available</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>To Kill A Mockingbird
+                                <table>
+                                    <tr><td>Publication Date:1988</td></tr>
+                                    <tr><td>Page Count:384</td></tr>
+                                    <tr><td>ISBN:978-0446310789</td></tr>
+                                </table>
+                            </td>
+                            <td>Harper Lee</td>
+                            <td>Genres:Novel, Thriller, Domestic Fiction, </td>
+                            <td>available</td>
+                        </tr>  
+                    </tbody>
+                </table>
+            </div>
+            <div id="register" class="registercontainer">
+                <h1>Register</h1>
+                <form>
+                    <div>
+                        <label for="first"><b>First Name:</b></label>
+                        <input type="text" placeholder="Enter firstname" id="fname" required>
+
+                        <label for="last"><b>Last Name:</b></label>
+                        <input type="text" placeholder="Enter lastname" id="lname" required>
+
+                        <label for="date"><b>Date Of Birth:</b></label>
+                        <input type="date" id="date" required>
+
+                        <label for="age" ><b>Age:</b></label>
+                        <input type="number" id="age" min="5" max="100">
+
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" pattern="[^ @]*@[^ @]*" id="email" required>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password"id="psw" required>
+
+                        <label for="confirm-psw"><b>Confirm Password</b></label>
+                        <input type="password" placeholder="Confirm Password" id="confirm-psw" required>
+                        
+                        <button type="submit">Register</button>
+                   </div>
+                </form>    
+            </div>
+        </body>
+    </head>
+</html>
